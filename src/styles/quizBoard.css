@@ -1,0 +1,16 @@
+.quizBoard {
+  width: 900px;
+  height: 350px;
+  background-image: linear-gradient(#448aff, #81d4fa);
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 0 5px 2px gray;
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .quizBoard {
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+  }
+}

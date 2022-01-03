@@ -1,0 +1,7 @@
+.correctDiv {
+  width: 100vw;
+  height: 150px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to right, rgb(0, 128, 0), rgb(2, 204, 2));
+}
